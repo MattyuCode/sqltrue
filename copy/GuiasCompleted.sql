@@ -51,9 +51,9 @@ show databases;
 
 insert into prueba1(peso, nombre, fecha, comentarions) 
 values (12.5, "Juanito", "2022-01-15", "asdfsdfdfdsfasdfsd" ); 
-INSERT INTO prueba.prueba1 (peso, nombre, fecha, comentarios) 
+INSERT INTO prueba1 (peso, nombre, fecha, comentarios) 
 VALUES ('30', 'Pedro', '2022-05-04', 'no lo se');
-INSERT INTO prueba.prueba1 (peso, nombre, fecha, comentarios) 
+INSERT INTO prueba1 (peso, nombre, fecha, comentarios) 
 VALUES ('35', 'Pedro', '2022-05-04', 'no lo se');
 
 -- esto funciona cuando le agregas en la tabla un increment tambien funciona al sin incre
