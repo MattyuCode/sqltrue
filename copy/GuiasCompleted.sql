@@ -1,3 +1,11 @@
+```sql
+	HACER UN TRUNCATE A UNA TABLA CON FOREIGN KEY MYSQL
+	SET FOREIGN_KEY_CHECKS = 0; 
+	TRUNCATE TABLE nombre_de_la_tabla; 
+	SET FOREIGN_KEY_CHECKS = 1;
+```
+
+
 function getConexion()
 {
     $server   = "localhost";
